@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+   
+    .lista-beneficios,.img-beneficios{
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+    
+    .box-diferenciais{
+        width:100%;
+        margin-right: 0;
+    }
+    
+    section.marcas{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.marcas img{
+        max-width: 300px;
+        width:100%;
+        
+        
+    }
+
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding:8px 0;
+    }
+
+    footer .items-menu{
+        width: 100%;
+        margin:10px 0;
+        text-align: center;
+    }
+
+    footer .items-menu a{
+        display: block;
+        text-align: center;
+    }
+    
+    main.principal .items-menu{
+        display: none;
+    }
+
+    .items-menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile{
+        
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        background-color: white;
+        width: 100%;
+        padding:15px 0;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+        
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin:8px 0;
+        color:rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom:1px solid rgb(40,40,40);
+        padding:8px 0;
+    }
+}
